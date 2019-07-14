@@ -31,7 +31,9 @@
               <%= link_to lesson_path(lesson) do %>
               <b><%= lesson.title %></b>
               -
+              <%= link_to lesson_path(lesson) do %>
               <%= lesson.subtitle %>
+              <% end %>
             <% end %>
           </div>
         <% end %>
